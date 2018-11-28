@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetalleActivity"
+    android:background="@drawable/name"
+    >
+
+    <ImageView
+        android:id="@+id/ivCuadroDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/momalogin"
+        android:scaleType="fitXY"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:transitionName = "@string/"/>
+
+    <ImageView
+        android:id="@+id/ivMarco"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/frame"
+        android:scaleType="fitXY"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"/>
+
+    <TextView
+        android:id="@+id/tvNombreArtista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivCuadroDetalle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Alvaro"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/tvInfluenciado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombreArtista"
+        android:layout_centerHorizontal="true"
+        android:text="Influenced_by:"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tvNacionalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInfluenciado"
+        android:layout_centerHorizontal="true"
+        android:text="Nacionalidad:"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+</RelativeLayout>

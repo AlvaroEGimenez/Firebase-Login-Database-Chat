@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name"
+    android:fitsSystemWindows="true"
+    tools:context=".view.LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivFotoLogin"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/momalogin" />
+
+
+    <TextView
+        android:id="@+id/tvMoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivFotoLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fitsSystemWindows="true"
+        android:text="@string/moma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/tvArtMuseum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/museum_of_modern_art"
+        android:layout_below="@+id/tvMoma"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:fitsSystemWindows="true" />
+
+</RelativeLayout>

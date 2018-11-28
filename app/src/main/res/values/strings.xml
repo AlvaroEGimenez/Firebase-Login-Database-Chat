@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Servicios Web + Firebase</string>
+
+    <string name="facebook_app_id">360262697880934</string>
+    <string name="fb_login_protocol_scheme">fb360262697880934</string>
+    <string name="moma">MoMa</string>
+    <string name="museum_of_modern_art">Museum of Modern Art</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="refresh">Chat</string>
+    <string name="camara">camara</string>
+
+</resources>
